@@ -41,8 +41,8 @@ crearProducto(){
     })
   }
    
-  eliminarProducto(id: number){
-    this.pService.eliminarProducto(id).subscribe(res => {
+  eliminarProducto(idProducto: number){
+    this.pService.eliminarProducto(idProducto).subscribe(res => {
     this.getProductos()
     })
   }

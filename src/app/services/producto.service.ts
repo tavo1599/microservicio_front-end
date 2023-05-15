@@ -7,7 +7,7 @@ import { Producto } from '../modells/Producto';
 })
 export class ProductoService {
   
-  rutaGlobal = 'http://localhost:8080/producto'
+  rutaGlobal = 'http://localhost:8080/producto/'
 
   constructor(private http: HttpClient) { }
 
